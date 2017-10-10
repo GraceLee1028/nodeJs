@@ -3,7 +3,6 @@
     <properties>
       <sourceFilesUrls>
         <item url="file://$PROJECT_DIR$/event-compiled.js" />
-        <item url="file://$PROJECT_DIR$/001-compiled.js" />
         <item url="file://$PROJECT_DIR$/fs-compiled.js" />
       </sourceFilesUrls>
     </properties>

@@ -18,7 +18,9 @@ eventEmitter.on("hello",handler);//为指定事件注册一个监听器，接受
 eventEmitter.addListener("hello",()=>{
     console.log("hello girl,再次监听hello事件");
 });
+eventEmitter.removeListener("hello",handler);
 //once(event, listener):为指定事件注册一个单次监听器，即 监听器最多只会触发一次，触发后立刻解除该监听器。
+
 //触发事件
 eventEmitter.emit("hello");
 //示例二

@@ -8,6 +8,7 @@ console.log(typeof data);
 console.log(data.toString());
 console.log("readFileSync程序执行结束。");
 
+
 console.log("非阻塞读取文件示例");
 //异步函数用于读取文件
 fs.readFile("./asserts/text/address1.txt",(err,data)=>{
