@@ -17,4 +17,4 @@ http.createServer(function (request, response) {
 // 终端打印如下信息
 console.log('Server running at http://127.0.0.1:8888/');
 
-//# sourceMappingURL=001-compiled.js.map
+//# sourceMappingURL=http-compiled.js.map

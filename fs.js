@@ -9,8 +9,9 @@ console.log(data.toString());
 console.log("readFileSync程序执行结束。");
 
 console.log("非阻塞读取文件示例");
-fs.readFile("./asserts/text/address.txt",(err,data)=>{
-    if(err){console.error(err);}
+//异步函数用于读取文件
+fs.readFile("./asserts/text/address1.txt",(err,data)=>{
+    if(err){console.error(err.stack);return;}
     console.log(data.toString());
 });
 console.log("readFile程序执行结束。");

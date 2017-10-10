@@ -9,7 +9,7 @@
     </properties>
     <CLASSES>
       <root url="file://$PROJECT_DIR$/event-compiled.js" />
-      <root url="file://$PROJECT_DIR$/001-compiled.js" />
+      <root url="file://$PROJECT_DIR$/http-compiled.js" />
       <root url="file://$PROJECT_DIR$/fs-compiled.js" />
     </CLASSES>
     <SOURCES />
