@@ -23,7 +23,7 @@ console.log("readFile程序执行结束。");
 let readStream = fs.createReadStream("./asserts/text/test.txt");
 //设置编码为UTF-8
 readStream.setEncoding("UTF-8");
-//处理流的事件【data:当有数据可读时触发，end:没有更多的数据可读时触发，】
+//处理流的事件【data:当有数据可读时触发，end:没有更多的数据可读时触发，error:当可读流发生错误时触发】
 let d = "";
 readStream.on("data",function(chunk){
     d+=chunk;
