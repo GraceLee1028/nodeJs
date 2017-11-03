@@ -1,0 +1,1 @@
+{"version":3,"sources":["hello_module.js"],"names":[],"mappings":"AAAA;;;AAGA;AACA,QAAQ,KAAR,GAAgB,YAAU;AACtB,UAAQ,GAAR,CAAY,OAAZ;AACH,CAFD","file":"hello_module-compiled.js","sourcesContent":["/**\r\n * Created by lea on 2017/11/3.\r\n */\r\n//exports 是模块公开的接口\r\nexports.hello = function(){\r\n    console.log(\"hello\");\r\n};"]}

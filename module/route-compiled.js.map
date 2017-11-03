@@ -1,0 +1,1 @@
+{"version":3,"sources":["route.js"],"names":[],"mappings":"AAAA;;;AAGA,SAAS,KAAT,CAAe,QAAf,EAAwB;AACpB,UAAQ,GAAR,CAAY,kCAAgC,QAA5C;AACH;AACD,QAAQ,KAAR,GAAgB,KAAhB","file":"route-compiled.js","sourcesContent":["/**\r\n * Created by lea on 2017/11/3.\r\n */\r\nfunction start(pathname){\r\n    console.log(\"about to route a request for \"+pathname);\r\n}\r\nexports.route = start;"]}
