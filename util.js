@@ -22,8 +22,9 @@ j.getName();
 //util.inspect():
 //一个将任意对象 转换 为字符串的方法，通常用于调试和错误输出
 console.log(util.inspect(j));
-
+console.log(j.age);//undefined [未继承]
 //j.sayHello();//报错了：inherits（）：仅仅继承了在原型中定义的函数，而在构造函数内创造的属性和函数都没有被继承。
+
 let p = new People();
 p.getName();
 
