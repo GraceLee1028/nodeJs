@@ -3,17 +3,17 @@
  */
 var os = require("os");
 
-// CPU µÄ×Ö½ÚĞò
+// CPU çš„å­—èŠ‚åº
 console.log('endianness : ' + os.endianness());
 
-// ²Ù×÷ÏµÍ³Ãû
+// æ“ä½œç³»ç»Ÿå
 console.log('type : ' + os.type());
 
-// ²Ù×÷ÏµÍ³Ãû
+// æ“ä½œç³»ç»Ÿå
 console.log('platform : ' + os.platform());
 
-// ÏµÍ³ÄÚ´æ×ÜÁ¿
+// ç³»ç»Ÿå†…å­˜æ€»é‡
 console.log('total memory : ' + os.totalmem() + " bytes.");
 
-// ²Ù×÷ÏµÍ³¿ÕÏĞÄÚ´æÁ¿
+// æ“ä½œç³»ç»Ÿç©ºé—²å†…å­˜é‡
 console.log('free memory : ' + os.freemem() + " bytes.");

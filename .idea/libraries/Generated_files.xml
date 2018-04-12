@@ -1,0 +1,25 @@
+<component name="libraryTable">
+  <library name="Generated files" type="javaScript">
+    <properties>
+      <sourceFilesUrls>
+        <item url="file://$PROJECT_DIR$/getPost-compiled.js" />
+        <item url="file://$PROJECT_DIR$/module/hello_module-compiled.js" />
+        <item url="file://$PROJECT_DIR$/path-compiled.js" />
+        <item url="file://$PROJECT_DIR$/module/nodeModule-compiled.js" />
+        <item url="file://$PROJECT_DIR$/util-compiled.js" />
+        <item url="file://$PROJECT_DIR$/module/require-compiled.js" />
+        <item url="file://$PROJECT_DIR$/os-compiled.js" />
+      </sourceFilesUrls>
+    </properties>
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/getPost-compiled.js" />
+      <root url="file://$PROJECT_DIR$/module/hello_module-compiled.js" />
+      <root url="file://$PROJECT_DIR$/path-compiled.js" />
+      <root url="file://$PROJECT_DIR$/module/nodeModule-compiled.js" />
+      <root url="file://$PROJECT_DIR$/util-compiled.js" />
+      <root url="file://$PROJECT_DIR$/module/require_demo-compiled.js" />
+      <root url="file://$PROJECT_DIR$/os-compiled.js" />
+    </CLASSES>
+    <SOURCES />
+  </library>
+</component>
